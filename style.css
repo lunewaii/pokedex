@@ -37,20 +37,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 70%;
     flex-wrap: wrap;
     gap: 50px;
 }
 
 .pokemon-box{
-    width: 30%;
-    background-color: rgba(128, 128, 128, 0.388);
+    width: 300px;
+    background-color: rgba(223, 220, 220, 0.692);
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
+
+.pokemon-box span{
+    color: blue;
 }
 
 .pokemon-box img{
