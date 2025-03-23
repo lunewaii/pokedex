@@ -7,12 +7,34 @@
 .main{
     /* background-color: red; */
     padding: 2%;
-}
-
-.main h1{
-    color: rgb(255, 230, 0);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.main h1{
+    color: rgb(255, 217, 0);
+}
+
+.pokemon-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pokemon-box{
+    width: 30%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokemon-box img{
+    width: 100%;
+}
