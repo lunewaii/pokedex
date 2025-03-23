@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F9E7E7;
 }
 
-.main{
+.main {
     /* background-color: red; */
     padding: 2%;
     display: flex;
@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-.h1{
+.h1 {
     margin-bottom: 3%;
     background-color: #210124;
     width: 20%;
@@ -28,12 +28,12 @@ body{
     border-radius: 15px;
 }
 
-.main h1{
+.main h1 {
     color: #ffd900;
     font-size: 50px;
 }
 
-.pokemon-boxes{
+.pokemon-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body{
     gap: 50px;
 }
 
-.pokemon-box{
+.pokemon-box {
     width: 300px;
     background-color: rgba(223, 220, 220, 0.692);
     border-radius: 30px;
@@ -53,11 +53,11 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
 }
 
-.pokemon-box span{
+.pokemon-box span {
     color: blue;
 }
 
-.pokemon-box img{
+.pokemon-box img {
     width: 100%;
 }
 
