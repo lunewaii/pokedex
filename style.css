@@ -20,12 +20,12 @@ body{
 .h1{
     margin-bottom: 3%;
     background-color: #210124;
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .main h1{
@@ -59,4 +59,32 @@ body{
 
 .pokemon-box img{
     width: 100%;
+}
+
+/* Container da barra de pesquisa */
+.query {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Campo de entrada de texto */
+.search {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Placeholder do campo de entrada */
+.search::placeholder {
+    color: #999;
 }
