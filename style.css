@@ -65,7 +65,7 @@ body{
 .query {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 40%;
     margin: 20px auto;
     border: 2px solid #ccc;
     border-radius: 10px;
